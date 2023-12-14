@@ -1,0 +1,155 @@
+.desktop-4 {
+  background: #f0e7f3;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 1290px;
+  height: 620px;
+  position: relative;
+  overflow: hidden;
+  background-color: #f0e7f3 ;
+}
+.frame-14 {
+  background: #c1d1d1;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #2f2f2f; 
+  border-width: 1px;
+  width:1250px;
+  height: 72px;
+  position: absolute;
+  left:20px;
+  top: 13px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.vector8 {
+  height: auto;
+  position: absolute;
+  right: 17.68%;
+  left: 28%;
+  width: 4.01%;
+  bottom: 31.94%;
+  top: 30.56%;
+  height: 37.5%;
+  overflow: visible;
+}
+.ellipse-36 {
+  background: #03a026;
+  border-radius: 50%;
+  width: 10px;
+  height: 9px;
+  position: absolute;
+  left:378px;
+  top: 22px;
+}
+.arcticons-messages-2 {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left:280px;
+  top: 15px;
+  overflow: visible;
+}
+.butt3{
+  border-radius: 20%;
+  background-color: #6cd182;
+  position: absolute;
+  left: 494px;
+  top: 400px;
+  width: 80px;
+}
+.butt4{
+  border-radius: 20%;
+  background-color: #4a64b8;
+  position: absolute;
+  left: 600px;
+  top: 400px;
+  width: 80px;
+}
+.butt5{
+  border-radius: 20%;
+  background-color: #6cd182;
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  width: 80px;
+}
+.rectangle-20 {
+  background: #d9d9d9;
+  width: 223px;
+  height: 33px;
+  position: absolute;
+  left: 28px;
+  top: 22px;
+}
+.vector10 {
+  height: auto;
+  position: absolute;
+  right: 91.57%;
+  left: 4.7%;
+  width: 3.73%;
+  bottom: 27.73%;
+  top: 34.72%;
+  height: 37.55%;
+  overflow: visible;
+}
+.rectangle-21 {
+  width: 173px;
+  height: 20px;
+  position: absolute;
+  left: 70px;
+  top: 29px;
+  overflow: visible;
+}
+.component-3 {
+  width: 200px;
+  height: 31px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+.logOut{
+  color: #252424;
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  font-size: 20px;
+  font-weight: 30px;
+}
+.frame-15 {
+  background:  #dfe3ee;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1250px;
+  height: 520px;
+  position: absolute;
+  left:20px;
+  top: 91px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.table{
+  border-bottom: black solid 2px;
+  border-top: black solid 2px;
+  margin-left: 100px;
+  margin-top: 50px;
+    border-radius:15px 50px;
+    width:950px ;
+    position: relative;
+    left: 17px;
+    top: 15px;
+    height: 300px;
+}
+.identite{
+  color: white;
+ 
+  position: absolute;
+  left: 1000px;
+  top: 20px;
+  font-size: 25px;
+  font-weight: 30px;
+}

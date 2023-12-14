@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <link rel=stylesheet text=type/css href="./css/1.css">
+    </head>
+    <body id="b2" style="background-image: url('./images/b.jpg');"> 
+<h1 ><u> Welcome !</u> </h1><br><br>
+<form method="post" action="ajout.php">
+<table id="tab1" width =40% align="center" >
+  <tr>
+    <td id="td"> first Name : </td> <td><input type="text" placeholder="name" name="nom"></td>
+  </tr>
+  <tr>
+    <td id="td"> last name : </td> <td><input type="text" placeholder="last name" name="prenom" ></td>
+  </tr>
+  <tr>
+    <td id="td">Email : </td> <td ><input type="email" placeholder="ex: myname@example.com" name="email" ></td>
+  </tr>
+  <tr>
+    <td id="td">Password : </td> <td ><input type="password" placeholder="enter password" name="password" ></td>
+  </tr>
+  <tr>
+    <td id="td"> Sexe : </td>   
+    <td>
+        <label> male      </label>
+        <input type="radio" value="Homme" name="sexe" > 
+        <label> female      </label>
+        <input type="radio" value="Femme" name="sexe" > 
+    </td>
+  </tr>
+  <tr>
+    <td id="td"> age :  </td>
+      <td> <input type="text" placeholder="age" name="age"></td>
+  </tr>
+  <tr>
+    <td id="td"> city : </td><td > <input type="text" placeholder="city" name="ville"></td> 
+  </tr>
+  <tr>
+    <td id="td"> Level of education : </td> <td> <input type="text" placeholder="level of education" name="niveau"> </td>
+  </tr>
+  <tr>
+    <td > </td> <td> <select name="eM" id="eMselect"><option value="etudiant">Etudiant</option><option value="mentor">Mentor</option> </select> </td> 
+  </tr>
+  <tr>
+  <td id="td"> speciality: </td> <td > <input type="text" placeholder="speciality" name="specialite"> </td> 
+</tr>
+<tr id="mentorDescriptionDomaine" style="display: none;">
+  <td id="td">Professional Field : </td>
+  <td><input type="text" placeholder="professionnal field" name="domaine"></td>
+</tr>
+<tr id="mentorDescriptionPoste" style="display: none;">
+  <td id="td"> Current position : </td>
+  <td><input type="text" placeholder="current position" name="poste"></td>
+</tr>
+<tr id="mentorDescriptionCompetences" style="display: none;">
+  <td id="td">Skills: </td>
+  <td><input type="text" placeholder="skills" name="competences"></td>
+</tr>
+</table> <br> 
+    <form align="center"> <button id="butt2" type="submit"> sign in </button> </form>
+     <p id="b" ><u> <a href="interface.html"> back </a> </u></p>
+     <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    var eMSelect = document.getElementById('eMselect');
+    var mentorDescriptionDomaine = document.getElementById('mentorDescriptionDomaine');
+    var mentorDescriptionPoste = document.getElementById('mentorDescriptionPoste');
+    var mentorDescriptionCompetences = document.getElementById('mentorDescriptionCompetences');
+
+    eMSelect.addEventListener('change', function () {
+        var selectedValue = eMSelect.value;
+
+        mentorDescriptionDomaine.style.display = 'none';
+        mentorDescriptionPoste.style.display = 'none';
+        mentorDescriptionCompetences.style.display = 'none';
+
+        if (selectedValue === 'mentor') {
+            mentorDescriptionDomaine.style.display = 'table-row';
+            mentorDescriptionPoste.style.display = 'table-row';
+            mentorDescriptionCompetences.style.display = 'table-row';
+        }
+    });
+});
+  </script>
+    </body>
+  </form>
+</html>       
